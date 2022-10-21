@@ -1,20 +1,14 @@
 function frutas(fruta){
-    console.log("Maçã [1] " + 
-                "Kiwi [2] " + 
-                "Melancia [3] ")
     switch (fruta){
-        case 1: 
-          console.log("Maçã:")
+        case 'Maçã': 
           console.log("Não vendemos essa fruta aqui!")
           break
         
-        case 2: 
-           console.log("Kiwi: ")
+        case 'Kiwi':
            console.log("Estamos em escassez de Kiwi!!")
            break;
         
-        case 3: 
-           console.log("Melancia: ")
+        case 'Melancia':
            console.log("Aqui está, são 3R$ o kilo ")
            break;
 
@@ -24,4 +18,7 @@ function frutas(fruta){
 
     }
 }
-frutas(5)
+frutas('Melancia')
+frutas('Maçã')
+frutas('Kiwi')
+frutas('manga')
