@@ -4,14 +4,13 @@ function inverso(valor){
   if (tipo == "boolean"){
     return !valor
   } else if (tipo == "number"){
-    return "-".concat(valor)
+    return -valor
   }else{
     return `booleano ou número esperados, mas o parâmetro é do tipo ${tipo}`
   }
 }
 
 console.log(inverso(true))
-console.log(inverso(true))
-console.log(inverso(false))
-console.log(inverso(34))
-console.log(inverso('Olá'))
+console.log(inverso("6"))
+console.log(inverso(-2000))
+console.log(inverso("programação"))
